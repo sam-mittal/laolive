@@ -31,7 +31,27 @@ ul,label{
 body a:hover,body a:focus{
 	text-decoration:none;
 	outline: none;
+}
+.main_logo{
+    height : 100px;
+    width : 350px;
+    margin : 0;
 } 
+
+@media only screen and (max-width: 578px){
+    .main_logo{
+    height : 50px;
+    width : 175px;
+    margin : 0;
+    }
+    .agileits-logo h1 a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 10px inset #bab86c;
+    padding: .4em 0.6em;
+}  
+}
 /*-- banner --*/ 
 .w3ls-banner{ 
 	background:url(../images/1.jpg)no-repeat center 0px;
@@ -60,7 +80,7 @@ body a:hover,body a:focus{
     color: #fff;
     text-decoration: none;
     display: inline-block;
-	border: 10px inset #03d2be;
+	border: 10px inset #bab86c;
     padding: .5em 0.8em;
 } 
 /*-- top-nav --*/ 
@@ -93,14 +113,14 @@ body a:hover,body a:focus{
     letter-spacing: 6px;
 } 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
-    color: #03d2be;
+    color: #bab86c;
 } 
 .navbar-default .navbar-nav li  a:hover:before,.navbar-default .navbar-nav li a.active:before{
 	width: 100%;
 } 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background: none;
-    color: #03d2be;
+    color: #bab86c;
 }
 ul.dropdown-menu {
     top: 195%;
@@ -123,7 +143,7 @@ ul.dropdown-menu {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 } 
 .cl-effect-16 a::before {
-	color: #03d2be;
+	color: #bab86c;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
@@ -176,7 +196,7 @@ ul.dropdown-menu {
     transition: 0.5s all; 
 }
 .social-w3lsicon a:hover {
-    color: #03d2be; 
+    color: #bab86c; 
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
@@ -1818,13 +1838,13 @@ body .bar_group__bar.thin {
 }
 button.navbar-toggle {
     margin: 0.9em 1em;
-    background: #03d2be;
+    background: #bab86c;
 }
 .navbar-default .navbar-toggle {
-    border-color: #03d2be;
+    border-color: #bab86c;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #03d2be;
+    background-color: #bab86c;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #616060;
