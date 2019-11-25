@@ -40,8 +40,8 @@ body a:hover,body a:focus{
 
 @media only screen and (max-width: 578px){
     .main_logo{
-    height : 50px;
-    width : 175px;
+    height : 30px;
+    width : 105px;
     margin : 0;
     }
     .agileits-logo h1 a {
